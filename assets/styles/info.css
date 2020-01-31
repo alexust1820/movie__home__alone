@@ -1,0 +1,250 @@
+.div__info {
+      border-bottom: 2px solid black;
+      margin: 20px;
+}
+
+.clock {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+}
+
+.clock:after {
+  position: absolute;
+  left: 8px;
+  bottom: 9px;
+  content: "";
+  height: 7px;
+  width: 6px;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.place {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.place__time.-size {
+  font-size: 30px;
+}
+
+.place__info {
+	display: flex;
+	align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.info {
+	max-width: 65%;	
+	padding-top: 20px;
+}
+
+.info__left {
+  margin:0 auto;
+  padding-right: 20px;
+}
+
+.spiker {
+	display: flex;
+   align-items: flex-start;
+	position: absolute;
+	right: 21px;
+	top: 320px;
+	border: 3px solid black;
+	min-height: 140px;
+	min-width: 240px;
+}
+.p__spiker {
+   margin-left: 10px;
+   font: fat;
+}
+
+.spiker__pro {
+  position: absolute;
+  left: 60px;
+  bottom: -15px;
+  font-size: 15px;
+}
+
+.spiker__info {
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 10px;
+   margin: 10px;
+}
+
+.info__border {
+   position: relative;
+	border: 3px solid black;
+	padding:10px;
+   margin-top: 60px;
+}
+
+.info__border:after {
+   content: "";
+   position: absolute;
+   left: 30px;
+   bottom: -14px;
+   width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: white;
+  border-width: 3px 0 0 3px;
+  transform: rotate(-135deg);
+}
+
+.border__p.-Russo {
+  margin-top: -30px;
+  margin-left: 40px;
+}
+
+.philosofer {
+  font-size: 10px;
+  margin-left: 60px;
+}
+
+.information {
+   	display: flex;
+   	justify-content: space-between;
+      text-align: left;
+      margin-bottom: 40px;
+   }
+
+   .fact {
+      margin-bottom: 60px;
+      margin-top: 60px;
+   	border-left: 3px solid salmon;
+      padding-left: 10px;
+   }
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+ 
+}
+
+.li__big {
+  margin-right: 60px;
+  min-width: 130px;
+  display: block;
+}
+
+.li__normal {
+   text-align: right;
+  display: block;
+ 
+  min-width: 140px;
+}
+
+p {
+  margin-top: -5px;
+}
+
+.li__div {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  min-width: 50vw;
+}
+ 
+    .details {
+   	display: flex;
+   	justify-content: flex-start;
+   }
+
+   h3 {
+   text-align: left;
+   margin-left: 10px;   
+}
+
+
+.filmfind {
+	color: black;
+  border-bottom: 1px solid black;
+  transition: .2s;
+}
+
+.filmfind:hover {
+  transition: .2s;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.info__left {
+	margin-right: 10px;
+}
+
+.border__p {
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.ticket {
+  height: 25px;
+  width: 13px;
+  background-color: transparent;
+  transform: rotate(45deg);
+  border: 2px solid black;
+  margin-right: 10px;
+  
+}
+
+.ticket:after {
+  position: absolute;
+  right: 0px;
+  bottom: 13px;
+  content:"";
+  width: 8px;
+  height: 1px;
+  background-color: black;
+  border: 0.5px solid black;
+}
+
+.location {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+}
+
+.location:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: -5px;
+  left: 5px;
+}
+
+.location:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+  height: 5px;
+  width: 5px;
+  border: 2px solid black;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,41 @@
+.main {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlbFbnUdWY7gmqd_MAH0Xc10hpLnW1A5UIwOvaZ30CHDnP8iWL&s");
+	max-height: 60vh;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding:25px;
+	padding-top: 30px;
+	display: flex;
+	align-items: top;
+	color: white;
+}
+
+.date {
+	font-size: 35px;
+	margin-left: -25px;
+   text-align: center;
+}
+
+.all {
+	text-align: center;
+}
+
+a {
+   	color: white;
+   	margin-right: 10px;
+   	display: inline-block;
+   	cursor: pointer;
+   	cursor: url(../img/cursor__war.png), url(../img/cursor.png), pointer;
+   }
+
+   * {
+	box-sizing: border-box; 
+	text-align: left;
+	cursor: url(../img/cursor__war.png), url(../img/cursor.png), pointer;
+}
+
+h1 {
+	margin-left: -10px;
+	cursor: pointer;
+}

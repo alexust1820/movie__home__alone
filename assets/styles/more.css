@@ -1,0 +1,46 @@
+.press {
+   	margin-right: 200px;
+   	margin-left: 40px;
+   }
+
+   .press__a {
+   	color: black;
+   	display: flex;
+   	align-items: center;
+   	margin-left: 0px;
+   	margin-bottom: 20px;
+      border-bottom: 1px solid black;
+      transition: .2s;
+      
+   }
+
+   .press__a.-f {
+      width: 24%;
+   }
+
+   .press__a.-s {
+      width: 29%;
+   }
+
+   .press__a.-fo {
+      width: 56%;
+   }
+
+   .press__a:hover {
+   	transition: .2s;
+   	color: salmon;
+      border-bottom: 1px solid red;
+   }
+
+
+   .img {
+      width: 640px;
+      height: 400px;
+      border-radius: 0;
+   }
+
+   .more {
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+   }   

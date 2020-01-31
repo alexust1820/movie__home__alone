@@ -1,0 +1,25 @@
+footer {
+   	display: flex;
+   	align-items: center;
+   	justify-content: space-between;
+   	border-top: 2px solid white;
+   	background-color: black;
+   	color: white;
+   	border: 0;
+   	border-top: 1px solid grey;
+      padding: 11px;
+   }
+
+   a {
+   text-decoration: none;
+}
+
+.age {
+      border-radius: 0;
+      width: 10px;
+      height: 10px;
+   }
+
+   .seans, .age {
+      margin: 10px;
+   }
