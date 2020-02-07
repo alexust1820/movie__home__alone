@@ -1,5 +1,9 @@
 header {
 	display: flex;
+	position: fixed;
+	width: 100vw;
+	z-index: 4;
+	margin-top: -40px;
 	justify-content: space-between;
 	align-items: center;
 	min-height: 50px;

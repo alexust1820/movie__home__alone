@@ -14,7 +14,8 @@
 
 .clock:after {
   position: absolute;
-  left: 8px;
+  left: 50%;
+  transform: translateX(-2px);
   bottom: 9px;
   content: "";
   height: 7px;
@@ -230,6 +231,7 @@ p {
 
 .location:before {
   content: "";
+  background-color: white;
   width: 10px;
   height: 10px;
   border-left: 2px solid black;
